@@ -45,7 +45,7 @@ const Navbar = () => {
               </>
             )}
             <div className="w-10 h-10 rounded-full overflow-hidden object-cover">
-              <img src={authUser.profilePic} alt="" />
+              <img src={authUser?.profilePic} alt="" />
             </div>
           </div>
         </div>
